@@ -1,9 +1,83 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T00:20:33.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" version="21.3.8" etag="FQpSSR-VcAKKQKY2Rdpo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T00:44:08.966Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.31" etag="bU5Vas_flENVdc4V95zO" version="21.3.8" type="github">
   <diagram name="第 1 页" id="sZPL5bIU7kVeQQdH51rQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-1" value="卡片申请业务" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BJ4Y85Pv0VAj0gwREQmv-2">
+          <mxGeometry x="0.1111" y="10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="135" as="sourcePoint" />
+            <mxPoint x="120" y="130" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-2" value="审核基本信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-3" value="个人用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BJ4Y85Pv0VAj0gwREQmv-3" target="BJ4Y85Pv0VAj0gwREQmv-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="260" as="sourcePoint" />
+            <mxPoint x="160" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-6" value="基本信息" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-7" value="发送通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-10" value="发送通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-13" value="客户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="BJ4Y85Pv0VAj0gwREQmv-2" target="BJ4Y85Pv0VAj0gwREQmv-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="sourcePoint" />
+            <mxPoint x="370" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-15" value="原因" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-16" value="未通过" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-14">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BJ4Y85Pv0VAj0gwREQmv-2" target="BJ4Y85Pv0VAj0gwREQmv-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="130" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-20" value="卡片申请日期与有效期" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-21" value="通过" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-19">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BJ4Y85Pv0VAj0gwREQmv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="130" as="sourcePoint" />
+            <mxPoint x="570" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-23" value="通知" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BJ4Y85Pv0VAj0gwREQmv-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="250" as="sourcePoint" />
+            <mxPoint x="570" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJ4Y85Pv0VAj0gwREQmv-25" value="通知" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BJ4Y85Pv0VAj0gwREQmv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
